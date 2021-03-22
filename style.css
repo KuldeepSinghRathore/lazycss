@@ -7,6 +7,7 @@
   --color-accent: #60dafd;
   --color-links: #bcbdbc;
   --color-danger: red;
+  --color-difblue: #115e85;
 }
 
 *,
@@ -22,7 +23,7 @@ html {
 }
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 2.5rem;
+  font-size: 2rem;
   background-color: var(--color-secondary);
 }
 h1,
@@ -33,13 +34,13 @@ h3 {
   line-height: 1.1;
 }
 h1 {
-  font-size: 6rem;
+  font-size: 5rem;
 }
 h2 {
-  font-size: 4rem;
+  font-size: 3rem;
 }
 h3 {
-  font-size: 3rem;
+  font-size: 1.5rem;
 }
 a {
   text-decoration: none;
