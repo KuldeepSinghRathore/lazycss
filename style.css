@@ -1,4 +1,6 @@
 @import url("./components/Button/button.css");
+@import url("./components/Avatar/avatar.css");
+
 :root {
   --color-primary: #20242d;
   --color-secondary: #78797a;

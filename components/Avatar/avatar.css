@@ -1,0 +1,17 @@
+/* avatars */
+.avatar {
+  border-radius: 50%;
+}
+.avatar--150 {
+  width: 150px;
+  height: 150px;
+}
+
+.avatar--100 {
+  width: 100px;
+  height: 100px;
+}
+.avatar--75 {
+  width: 75px;
+  height: 75px;
+}
