@@ -1,8 +1,10 @@
+@import url("./components/Button/button.css");
 :root {
   --color-primary: #20242d;
   --color-secondary: #78797a;
   --color-accent: #60dafd;
   --color-links: #bcbdbc;
+  --color-danger: red;
 }
 
 *,
@@ -74,7 +76,7 @@ p {
   padding: 2rem;
   text-align: center;
 }
-.btn {
+.btn__hero {
   outline: none;
   border: none;
   padding: 1.5rem 2rem;
@@ -95,4 +97,18 @@ p {
 component-links > a:focus {
   background-color: var(--color-accent);
   color: var(--color-primary);
+}
+.grid--section {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 0.5fr;
+  grid-template-areas: "aside main sidebar";
+}
+.aside {
+  grid-area: "aside";
+}
+.main {
+  grid-area: "main";
+}
+.side--bar {
+  grid-area: "sidebar";
 }
