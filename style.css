@@ -50,6 +50,7 @@ a {
   flex-grow: 1;
   background-color: var(--color-primary);
   padding: 1.4rem;
+  min-height: 10vh;
 }
 .navbar__list {
   width: 30%;
@@ -81,4 +82,17 @@ p {
   color: var(--color-primary);
   font-size: 2rem;
   cursor: pointer;
+}
+.aside__list li > a,
+.aside {
+  padding: 0.5rem;
+}
+.aside__list li {
+  list-style: none;
+  padding: 0.5rem;
+}
+.component-links > a:hover,
+component-links > a:focus {
+  background-color: var(--color-accent);
+  color: var(--color-primary);
 }
