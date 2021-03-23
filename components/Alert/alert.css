@@ -1,0 +1,22 @@
+.alert {
+  border: 2px solid #615d5d;
+  display: inline-block;
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 5px;
+  margin: 0.5rem;
+  text-align: center;
+  color: var(--color-offwhite);
+}
+.alert--primary {
+  background: var(--color-primary);
+}
+.alert--secondary {
+  background: var(--color-difblue);
+}
+.alert--accent {
+  background: var(--color-accent);
+}
+.alert--danger {
+  background: var(--color-danger);
+}

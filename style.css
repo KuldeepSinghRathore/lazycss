@@ -1,5 +1,6 @@
 @import url("./components/Button/button.css");
 @import url("./components/Avatar/avatar.css");
+@import url("./components/Alert/alert.css");
 
 :root {
   --color-primary: #20242d;
@@ -8,6 +9,7 @@
   --color-links: #bcbdbc;
   --color-danger: red;
   --color-difblue: #115e85;
+  --color-offwhite: #f3f3f3;
 }
 
 *,
