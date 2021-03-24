@@ -1,6 +1,7 @@
 @import url("./components/Button/button.css");
 @import url("./components/Avatar/avatar.css");
 @import url("./components/Alert/alert.css");
+@import url("./components/Badges/badge.css");
 
 :root {
   --color-primary: #20242d;
@@ -10,6 +11,7 @@
   --color-danger: red;
   --color-difblue: #115e85;
   --color-offwhite: #f3f3f3;
+  --color--lightblack: #333;
 }
 
 *,

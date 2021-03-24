@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lazy Buttons</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="/style.css" />
 
     <link rel="stylesheet" href="/prism/prism.css" />
@@ -71,44 +75,72 @@
         </ul>
       </aside>
       <main>
-        <button class="btn btn--primary">Primary</button>
-        <pre> 
-            <code  class ="language-html">
-      &lt;button class=&quot;btn btn--primary &quot;&gt;Primary&lt;/button&gt;
-    </code>
-</pre>
-        <button class="btn btn--secondary">Secondary</button>
-        <pre> 
-  <code  class ="language-html">
-      &lt;button class=&quot;btn btn--secondary &quot;&gt;Secondary&lt;/button&gt; 
-    </code>
-</pre>
-        <button class="btn btn--accent">Accent</button>
-        <pre> 
-  <code  class ="language-html">
-      &lt;button class=&quot;btn btn--accent &quot;&gt;Accent&lt;/button&gt; 
-    </code>
-</pre>
-        <button class="btn btn--danger">Danger</button>
-        <pre> 
-  <code  class ="language-html">
-      &lt;button class=&quot;btn btn--danger &quot;&gt;Danger&lt;/button&gt;
-    </code>
-</pre>
-        <button class="btn btn--secondary btn--pill">Pill Button</button>
-        <pre> 
-  <code  class ="language-html">
-      &lt;button class=&quot;btn btn--secondary btn--pill &quot;&gt;Pill&lt;/button&gt; 
-    </code>
-</pre>
+        <div class="badge__container">
+          <a href="#" class="btn btn--primary">
+            <span><b>Cart</b></span>
+            <span class="badge">2</span>
+          </a>
+        </div>
+        <pre class="language-html">
+          <code>
+            &lt;div class=&quot;badge__container&quot;&gt;
+             &lt;a href=&quot;#&quot; class=&quot;btn btn--primary&quot;&gt;
+             &lt;span&gt;&lt;b&gt;Cart&lt;/b&gt;&lt;/span&gt; 
+            &lt;span class=&quot;badge&quot;&gt;2&lt;/span&gt;
+             &lt;/a&gt;
+              &lt;/div&gt;
+          </code>
 
+        </pre>
+
+        <div class="badge__container">
+          <a href="#" class="btn btn--primary">
+            <span><b>Cart</b></span>
+            <span class="material-icons badge"> notifications_none </span>
+          </a>
+        </div>
+        <pre class="language-html"><code>
+          &lt;div class=&quot;badge__container&quot;&gt;
+          &lt;a href=&quot;#&quot; class=&quot;btn btn--primary&quot;&gt; 
+          &lt;span&gt;&lt;b&gt;Cart&lt;/b&gt;&lt;/span&gt; 
+          &lt;span class=&quot;material-icons badge&quot;&gt; notifications_none 
+          &lt;/span&gt; &lt;/a&gt; 
+          &lt;/div&gt;          
+        </code></pre>
+
+        <div class="badge__container">
+          <a href="#" class="circular">
+            <span class="material-icons badge--size"> notifications_none </span>
+            <span class="badge">3</span>
+          </a>
+        </div>
+        <pre class="language-html"><code>
+         &lt;div class=&quot;badge__container&quot;&gt; 
+         &lt;a href=&quot;#&quot; class=&quot;circular&quot;&gt; 
+         &lt;span class=&quot;material-icons badge--size&quot;&gt; notifications_none 
+         &lt;/span&gt; &lt;span class=&quot;badge&quot;&gt;3&lt;/span&gt; 
+         &lt;/a&gt; 
+         &lt;/div&gt;
+        </code></pre>
+        <div class="badge__container">
+          <a href="#" class="circular">
+            <span class="material-icons badge--size"> mail </span>
+            <span class="badge">4</span>
+          </a>
+        </div>
+        <pre class="language-html"><code>
+          &lt;div class=&quot;badge__container&quot;&gt; 
+          &lt;a href=&quot;#&quot; class=&quot;circular&quot;&gt;
+           &lt;span class=&quot;material-icons badge--size&quot;&gt; mail &lt;/span&gt;
+           &lt;span class=&quot;badge&quot;&gt;4&lt;/span&gt; 
+          &lt;/a&gt; 
+          &lt;/div&gt;
+
+        </code></pre>
         <!-- <pre> 
-  <code  class ="language-javascript">
+        
+          <code  class ="language-javascript">
   console.log("Hello")
-  </code>
-</pre> -->
-        <!-- <pre> 
-  <code  class ="language-html">
   </code>
 </pre> -->
       </main>
