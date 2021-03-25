@@ -4,11 +4,12 @@
 @import url("./components/Badge/badge.css");
 @import url("./components/Lists/lists.css");
 @import url("./components/Card/card.css");
-@import url("./components/Images/image.css");
+@import url("./components/Image/image.css");
 @import url("./components/Input/input.css");
 @import url("./components/Navigation/navigation.css");
+@import url("./components/Rating/rating.css");
 @import url("./components/Modal/modal.css");
-:root  {
+:root {
   --color-primary: #20242d;
   --color-secondary: #78797a;
   --color-accent: #60dafd;
