@@ -135,3 +135,6 @@ section.input__container-parent {
   /* margin: -22px; */
   padding: 34px;
 }
+.center {
+  margin: 0 auto;
+}
