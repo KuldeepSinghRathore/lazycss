@@ -6,6 +6,7 @@
 @import url("./components/Card/card.css");
 @import url("./components/Images/image.css");
 @import url("./components/Input/input.css");
+@import url("./components/Navigation/navigation.css");
 :root {
   --color-primary: #20242d;
   --color-secondary: #78797a;
@@ -64,12 +65,16 @@ a {
   background-color: var(--color-primary);
   padding: 1.4rem;
   min-height: 10vh;
+  align-items: center;
 }
 .navbar__list {
   width: 30%;
   justify-content: space-around;
   list-style: none;
   /* flex-grow: 1; */
+}
+.navbar__list li {
+  margin-right: 0.5rem;
 }
 .navbar__logo {
   color: var(--color-accent);

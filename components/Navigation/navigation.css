@@ -1,0 +1,23 @@
+.navbar2 {
+  background-color: var(--color-primary);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.5rem;
+}
+
+.nav__link-list {
+  display: flex;
+  margin: 0;
+  list-style: none;
+}
+
+.nav__link {
+  padding: 0.5rem;
+}
+
+.nav__link a {
+  color: inherit;
+  text-decoration: none;
+}
