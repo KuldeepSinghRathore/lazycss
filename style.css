@@ -7,7 +7,8 @@
 @import url("./components/Images/image.css");
 @import url("./components/Input/input.css");
 @import url("./components/Navigation/navigation.css");
-:root {
+@import url("./components/Modal/modal.css");
+:root  {
   --color-primary: #20242d;
   --color-secondary: #78797a;
   --color-accent: #60dafd;
@@ -37,7 +38,7 @@ body {
 h1,
 h2,
 h3 {
-  color: var(--color-accent);
+  /* color: var(--color-accent); */
   margin-bottom: 1rem;
   line-height: 1.1;
 }

@@ -1,0 +1,22 @@
+.modal-container {
+  background-color: rgba(0, 0, 0, 0.3);
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+  /* height: 100vh; */
+  width: 100%;
+}
+.modal {
+  background-color: #fff;
+}
+.modal .btn {
+  margin: 2px auto;
+  display: block;
+}
+/* .modal p {
+  margin: 0 auto;
+  display: block;
+} */
+.modal h2 {
+  text-align: center;
+}
