@@ -103,6 +103,9 @@ p {
   font-size: 2rem;
   cursor: pointer;
 }
+h1.hero__title {
+  color: var(--color-accent);
+}
 .aside__list li > a,
 .aside {
   padding: 0.5rem;
