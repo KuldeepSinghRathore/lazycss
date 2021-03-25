@@ -4,7 +4,9 @@
 @import url("./components/Badge/badge.css");
 @import url("./components/Lists/lists.css");
 @import url("./components/Card/card.css");
-:root  {
+@import url("./components/Images/image.css");
+@import url("./components/Input/input.css");
+:root {
   --color-primary: #20242d;
   --color-secondary: #78797a;
   --color-accent: #60dafd;
@@ -121,4 +123,8 @@ component-links > a:focus {
 }
 .side--bar {
   grid-area: "sidebar";
+}
+section.input__container-parent {
+  /* margin: -22px; */
+  padding: 34px;
 }
