@@ -127,6 +127,7 @@ component-links > a:focus {
   background-color: var(--color-accent);
   color: var(--color-primary);
 }
+
 /* .grid--section {
   padding: 2rem;
   display: grid;
@@ -151,4 +152,5 @@ section.input__container-parent {
 }
 main {
   margin-left: 22vh;
+  padding-top: 2rem;
 }
