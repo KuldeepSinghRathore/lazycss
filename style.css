@@ -106,6 +106,11 @@ p {
 h1.hero__title {
   color: var(--color-accent);
 }
+.aside {
+  position: fixed;
+  background-color: var(--color-offwhite);
+  min-height: 90vh;
+}
 .aside__list li > a,
 .aside {
   padding: 0.5rem;
@@ -114,18 +119,21 @@ h1.hero__title {
   list-style: none;
   padding: 0.5rem;
 }
+.component-links > a {
+  color: var(--color--lightblack);
+}
 .component-links > a:hover,
 component-links > a:focus {
   background-color: var(--color-accent);
   color: var(--color-primary);
 }
-.grid--section {
+/* .grid--section {
   padding: 2rem;
   display: grid;
   grid-template-columns: 0.5fr 1fr 0.5fr;
   grid-template-areas: "aside main sidebar";
-}
-.aside {
+   } */
+/* .aside {
   grid-area: "aside";
 }
 .main {
@@ -133,11 +141,14 @@ component-links > a:focus {
 }
 .side--bar {
   grid-area: "sidebar";
-}
+} */
 section.input__container-parent {
   /* margin: -22px; */
   padding: 34px;
 }
 .center {
   margin: 0 auto;
+}
+main {
+  margin-left: 22vh;
 }
