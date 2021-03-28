@@ -36,7 +36,7 @@
   left: 10px;
   color: var(--color-accent);
   padding: 2px;
-  background: white;
+  background: var(--color-white);
   pointer-events: none;
 }
 

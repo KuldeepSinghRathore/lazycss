@@ -40,7 +40,7 @@
 }
 .btn--danger {
   background: var(--color-danger);
-  color: #fff;
+  color: var(--color-white);
 }
 
 .btn--danger:hover {
