@@ -32,7 +32,6 @@
   transform: translateY(-50%);
   transition: 0.5s;
   font-size: 20px;
-  border: ;
 }
 .input--effect:focus + span {
   top: 0;
