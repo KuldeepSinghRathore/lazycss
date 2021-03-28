@@ -2,16 +2,16 @@
 .avatar {
   border-radius: 50%;
 }
-.avatar--150 {
+.avatar--lg {
   width: 150px;
   height: 150px;
 }
 
-.avatar--100 {
+.avatar--md {
   width: 100px;
   height: 100px;
 }
-.avatar--75 {
+.avatar--sm {
   width: 75px;
   height: 75px;
 }
