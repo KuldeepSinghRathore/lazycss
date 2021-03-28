@@ -1,7 +1,7 @@
 .card img {
   width: 100%;
   border-radius: 12px;
-  /* height: 214px; */
+
   object-fit: cover;
 }
 .card__container {
@@ -29,7 +29,6 @@
   margin-top: 16px;
 }
 .card p {
-  /* font-size: 14px; */
   color: var(--color-primary);
   line-height: 150%;
 }
