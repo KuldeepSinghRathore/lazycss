@@ -11,7 +11,7 @@
 @import url("./components/Modal/modal.css");
 :root {
   --color-primary: #20242d;
-  --color-secondary: #78797a;
+  --color-secondary: rgb(120, 121, 122);
   --color-accent: #60dafd;
   --color-links: #bcbdbc;
   --color-danger: red;
