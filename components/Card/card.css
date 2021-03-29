@@ -1,0 +1,38 @@
+.card img {
+  width: 100%;
+  border-radius: 12px;
+
+  object-fit: cover;
+}
+.card__container {
+  max-width: 300px;
+  margin: 0 auto;
+  margin-top: 20vh;
+}
+.card {
+  background-color: white;
+  padding: 8px;
+  border-radius: 12px;
+  border: 1px solid var(--color-primary);
+}
+.card .tag {
+  padding: 4px 8px;
+  border: 1px solid var(--color-primary);
+  border-radius: 50px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--color-primary);
+}
+.card .name {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 16px;
+}
+.card p {
+  color: var(--color-primary);
+  line-height: 150%;
+}
+button.btn.btn--secondary.btn--pill.card--btn {
+  margin: 0 auto;
+  display: block;
+}

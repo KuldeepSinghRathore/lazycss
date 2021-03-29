@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lazy Lists</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css" />
+
+    <link rel="stylesheet" href="/prism/prism.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        
+        <a href="/index.html" class="navbar__logo">LazyCss</a>
+
+        <ul class="navbar__list">
+          <li><a href="/index.html">Home </a></li>
+          <li><a href="/getstarted.html">Docs </a></li>
+          <li><a href="https://github.com/KuldeepSinghRathore/lazycss/tree/developement">Github </a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="grid--section">
+      <aside class="aside">
+        <ul class="aside__list">
+          <li class="component-links">
+            <a href="/components/Button/button.html">Button</a>
+          </li>
+          <li class="component-links">
+            <a href="/components/Avatar/avatar.html">Avatar</a>
+          </li>
+          <li class="component-links">
+            <a href="/components/Alert/alert.html">Alert</a>
+          </li>
+          <li class="component-links">
+            <a href="/components/Badge/badge.html">Badge</a>
+          </li>
+          <li class="component-links">
+            <a href="/components/Card/card.html">Card</a>
+          </li>
+          <li class="component-links">
+            <a href="/components/Image/image.html">Image</a>
+          </li>
+          <li class="component-links">
+            <a href="/components/Input/input.html">Input</a>
+          </li>
+          <li class="component-links">
+            <a href="/components/Lists/lists.html">Lists</a>
+          </li>
+          <li class="component-links">
+            <a href="/components/Navigation/navigation.html">Navigation</a>
+          </li>
+          <li class="component-links">
+            <a href="/components/Modal/modal.html">Modal</a>
+          </li>
+          <li class="component-links">
+            <a href="/components/Rating/rating.html">Rating</a>
+          </li>
+        
+      </aside>
+      <main>
+        <h3>List with Icon</h3>
+        <ul class="list list--tick">
+          <li class="list__item">Item 1</li>
+          <li class="list__item">Item 2</li>
+          <li class="list__item">Item 3</li>
+        </ul>
+        <pre class="language-html"><code>
+          &lt;ul class=&quot;list list--tick&quot;&gt;
+           &lt;li class=&quot;list__item&quot;&gt;Item 1&lt;/li&gt;
+           &lt;li class=&quot;list__item&quot;&gt;Item 2&lt;/li&gt; 
+           &lt;li class=&quot;list__item&quot;&gt;Item 3&lt;/li&gt;
+            &lt;/ul&gt;
+        </code></pre>
+        <pre class="language-css"><code>
+          .list--tick {
+  list-style-image: url("address of svg like tick here");
+  
+}
+        </code></pre>
+      </main>
+      <div class="side--bar"></div>
+    </section>
+    <script src="/prism/prism-ws-cp.js"></script>
+  </body>
+</html>

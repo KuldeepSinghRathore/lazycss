@@ -1,0 +1,19 @@
+.modal-container {
+  background-color: rgba(0, 0, 0, 0.3);
+
+  top: 0;
+  left: 0;
+
+  width: 100%;
+}
+.modal {
+  background-color: var(--color-white);
+}
+.modal .btn {
+  margin: 2px auto;
+  display: block;
+}
+
+.modal h2 {
+  text-align: center;
+}

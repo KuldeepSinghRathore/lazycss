@@ -1,0 +1,7 @@
+.rating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: max-content;
+  background-color: var(--color-accent);
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lazy Navigation</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css" />
+
+    <link rel="stylesheet" href="/prism/prism.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <a href="/index.html" class="navbar__logo">LazyCss</a>
+
+        <ul class="navbar__list">
+          <li><a href="/index.html">Home </a></li>
+          <li><a href="#">Docs </a></li>
+          <li><a href="#">Github </a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="grid--section">
+      <aside class="aside">
+        <ul class="aside__list">
+          <li class="component-links">
+            <a href="/components/Button/button.html">Button</a>
+          </li>
+          <li class="component-links">
+            <a href="/components/Avatar/avatar.html">Avatar</a>
+          </li>
+          <li class="component-links">
+            <a href="/components/Alert/alert.html">Alert</a>
+          </li>
+          <li class="component-links">
+            <a href="/components/Badge/badge.html">Badge</a>
+          </li>
+          <li class="component-links">
+            <a href="/components/Card/card.html">Card</a>
+          </li>
+          <li class="component-links">
+            <a href="/components/Image/image.html">Image</a>
+          </li>
+          <li class="component-links">
+            <a href="/components/Input/input.html">Input</a>
+          </li>
+          <li class="component-links">
+            <a href="/components/Lists/lists.html">Lists</a>
+          </li>
+          <li class="component-links">
+            <a href="/components/Navigation/navigation.html">Navigation</a>
+          </li>
+          <li class="component-links">
+            <a href="/components/Modal/modal.html">Modal</a>
+          </li>
+          <li class="component-links">
+            <a href="/components/Rating/rating.html">Rating</a>
+          </li>
+
+          <li class="component-links"></li>
+        </ul>
+      </aside>
+      <main>
+        <nav class="navbar2">
+          <span>Logo</span>
+          <ul class="nav__link-list">
+            <li class="nav__link"><a href="#">Home</a></li>
+            <li class="nav__link"><a href="#">Pricing</a></li>
+            <li class="nav__link"><a href="#">About</a></li>
+            <li class="nav__link"><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <pre class="language-html"><code>
+            &lt;nav class=&quot;navbar2&quot;&gt; &lt;span&gt;Logo&lt;/span&gt; &lt;ul class=&quot;nav__link-list&quot;&gt; 
+            &lt;li class=&quot;nav__link&quot;&gt;&lt;a href=&quot;#&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+             &lt;li class=&quot;nav__link&quot;&gt;&lt;a href=&quot;#&quot;&gt;Pricing&lt;/a&gt;&lt;/li&gt; 
+            &lt;li class=&quot;nav__link&quot;&gt;&lt;a href=&quot;#&quot;&gt;About&lt;/a&gt;&lt;/li&gt;
+             &lt;li class=&quot;nav__link&quot;&gt;&lt;a href=&quot;#&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+             &lt;/ul&gt; &lt;/nav&gt;</code></pre>
+
+        <nav class="navbar">
+          <a href="#" class="navbar__logo">LazyCss</a>
+
+          <ul class="navbar__list">
+            <li><a href="/index.html">Home </a></li>
+            <li><a href="/getstarted.html">Docs </a></li>
+            <li>
+              <a
+                href="https://github.com/KuldeepSinghRathore/lazycss/tree/developement"
+                >Github
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <pre class="language-html"><code>
+            &lt;nav class=&quot;navbar&quot;&gt; 
+            &lt;a href=&quot;./index.html&quot; class=&quot;navbar__logo&quot;&gt;LazyCss&lt;/a&gt;
+             &lt;ul class=&quot;navbar__list&quot;&gt;
+             &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Home &lt;/a&gt;&lt;/li&gt; 
+             &lt;li&gt; &lt;a href=&quot;#&quot;&gt;Docs &lt;/a&gt;&lt;/li&gt;
+             &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Github &lt;/a&gt;&lt;/li&gt; 
+            &lt;/ul&gt; 
+            &lt;/nav&gt;</code></pre>
+      </main>
+      <div class="side--bar"></div>
+    </section>
+    <script src="/prism/prism-ws-cp.js"></script>
+  </body>
+</html>
